@@ -36,7 +36,7 @@ REST，即Representational State Transfer的缩写，是目前最流行的一种
 
 ```javascript
 # Request
-GET https://api.ezb.com/market/symbol-thumb
+POST https://api.ezb.com/market/symbol-thumb
 
 # Response
 [
@@ -174,7 +174,7 @@ URL: `https://api.ezb.com/market/exchange-plate-full?symbol=BAR/USDT`
 
 ```javascript
 # Request
-GET  "https://api.ezb.com/market/exchange-plate-full"
+POST  "https://api.ezb.com/market/exchange-plate-full"
 {
   "symbol"："BAR/USDT",
 }
@@ -243,7 +243,7 @@ URL: `https://api.ezb.com/market/latest-trade?symbol=XXX&size=XXX`
 
 ```javascript
 # Request
-GET https://api.ezb.com/market/latest-trade
+POST https://api.ezb.com/market/latest-trade
 {
   "symbol"："BAR/USDT",
   "size"："4"
@@ -307,7 +307,7 @@ URL: `https://api.ezb.com/market/history?symbol=BAR/USDT&from=1558158143000&to=1
 
 ```javascript
 # Request
-GET https://api.ezb.com/market/history
+POST https://api.ezb.com/market/history
 {
   "symbol"："BAR/USDT",
   "from"："1558158143000",
